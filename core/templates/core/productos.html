@@ -1,0 +1,87 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block contenido %} 
+
+
+
+<div class="select">
+    <p>Ordenar por:</p>
+    <select name="format" id="format">
+        <option selected disabled>Filtrar datos</option>
+        <option value="mas_Vendidos">Más vendidos</option>
+        <option value="precios_menor_A_Mayor">Precio de Menor a Mayor</option>
+        <option value="precios_Mayor_A_Menor">Precio de Mayor a Menor</option>
+    </select>
+</div>
+<div class="news-cards">
+    <div style="border: 1px solid black;">
+        <img src="{% static 'core/'%}img/img/fotos productos/producto1.png" alt="">
+        <h3>Producto numero 1 de esta tienda</3>
+        <h2>$5.990</h2>
+        <p>¡TODO MEDIO DE PAGO</p>
+        <img src="{% static 'core/'%}img/img/fotos index/carrito-de-compras.png" alt="">
+        <a href="#">Agregar al carrito</a>
+    </div>
+    <div style="border: 1px solid black;">
+        <img src="{% static 'core/'%}img/img/fotos productos/producto2.jpg" alt="">
+        <h3>Producto numero 2 de esta tienda</h3>
+        <h2>$9.990</h2>
+        <p>con TRANSFERENCIA</p>
+        <p>$11.990 con OTRO MEDIO DE PAGO</p>
+        <img src="{% static 'core/'%}img/img/fotos index/carrito-de-compras.png" alt="">
+        <a href="#">Agregar al carrito</a>
+    </div>
+    <div style="border: 1px solid black;">
+        <img src="{% static 'core/'%}img/img/fotos productos/producto3.jfif" alt="">
+        <h3>Producto numero 3 de esta tienda</h3>
+        <h2>$2.990</h2>
+        <p>¡TODO MEDIO DE PAGO!</p>
+        <img src="{% static 'core/'%}img/img/fotos index/carrito-de-compras.png" alt="">
+        <a href="#">Agregar al carrito</a>
+    </div>
+    <div style="border: 1px solid black;">
+        <img src="{% static 'core/'%}img/img/fotos productos/producto4.jpg" alt="">
+        <h3>Producto numero 4 de esta tienda</h3>
+        <h2>$14.990</h2>
+        <p>¡TODO MEDIO DE PAGO</p>
+        <img src="{% static 'core/'%}img/img/fotos index/carrito-de-compras.png" alt="">
+        <a href="#">Agregar al carrito</a>
+    </div>
+</div>
+<div class="news-cards">
+    <div style="border: 1px solid black;">
+        <img src="{% static 'core/'%}img/img/fotos productos/producto5.jpg" alt="">
+        <h3>Scooby Galleta 1un</3>
+        <h2>$4.200</h2>
+        <p>¡TODO MEDIO DE PAGO</p>
+        <img src="{% static 'core/'%}img/img/fotos index/carrito-de-compras.png" alt="">
+        <a href="#">Agregar al carrito</a>
+    </div>
+    <div style="border: 1px solid black;">
+        <img src="{% static 'core/'%}img/img/fotos productos/producto6.jpg" alt="">
+        <h3>Corbatini para perritini</h3>
+        <h2>$9.990</h2>
+        <p>con TRANSFERENCIA</p>
+        <p>$6.007 con OTRO MEDIO DE PAGO</p>
+        <img src="{% static 'core/'%}img/img/fotos index/carrito-de-compras.png" alt="">
+        <a href="#">Agregar al carrito</a>
+    </div>
+    <div style="border: 1px solid black;">
+        <img src="{% static 'core/'%}img/img/fotos productos/producto7.jpg" alt="">
+        <h3>Armadura con encantamientos de fuego + Runas de Ataque para Firulais</h3>
+        <h2>$8.999.990</h2>
+        <p>¡TODO MEDIO DE PAGO!</p>
+        <img src="{% static 'core/'%}img/img/fotos index/carrito-de-compras.png" alt="">
+        <a href="#">Agregar al carrito</a>
+    </div>
+    <div style="border: 1px solid black;">
+        <img src="{% static 'core/'%}img/img/fotos productos/producto8.jpg" alt="">
+        <h3>Una papa</h3>
+        <h2>$1.500</h2>
+        <p>¡TODO MEDIO DE PAGO</p>
+        <img src="{% static 'core/'%}img/img/fotos index/carrito-de-compras.png" alt="">
+        <a href="#">Agregar al carrito</a>
+    </div>
+</div>
+{% endblock %}

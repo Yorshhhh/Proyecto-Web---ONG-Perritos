@@ -1,0 +1,79 @@
+body{
+    background: #E5E5E5;
+}
+#encabezado{
+    border: 1px solid black;
+    background-color: greenyellow;
+}
+#cuenta{
+    justify-content: end;
+}
+#clima{
+    display: block;
+    background-color: tomato;
+    border: 1px solid black;
+    justify-content: center;
+}
+#borde1{
+    display: block;
+    padding: 1em;
+    background-color: antiquewhite;
+    border: 1px solid  black;
+  }
+  #borde2{
+    display: block;
+    padding: 1em;
+    background-color: antiquewhite;
+    border: 1px solid black;
+  }
+#carousel{
+    padding: 2em;
+}
+#carruselFade{
+    background: #ffffff;
+    border: 1px solid black;
+    padding: 1em;
+}
+#btnAtrasCarrusel1{
+    background-color: brown;
+}
+#btnSiguienteCarrusel1{
+    background-color: brown;
+}
+#utilidades{
+    background: #ffffff;
+    border: 1px solid black;
+    height: 20%;
+    width: 70%;
+    border-radius: 1em;
+    padding: 1em;
+}
+#rrss{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+#ending{
+    background-color: blueviolet;
+}
+p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.news-cards{
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 10px 0;
+    border: 1px solid black;
+}
+.news-cards h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.news-cards img{
+    display: flex;
+    justify-content: center;
+}
